@@ -1,0 +1,55 @@
+{
+  "grid": [
+    {
+      "gap_yd": 3,
+      "gap_m": 2.74,
+      "line_break_rate": 40.11,
+      "val_auc": 0.7565
+    },
+    {
+      "gap_yd": 4,
+      "gap_m": 3.66,
+      "line_break_rate": 35.48,
+      "val_auc": 0.775
+    },
+    {
+      "gap_yd": 5,
+      "gap_m": 4.57,
+      "line_break_rate": 30.87,
+      "val_auc": 0.7749
+    },
+    {
+      "gap_yd": 6,
+      "gap_m": 5.49,
+      "line_break_rate": 26.99,
+      "val_auc": 0.7584
+    },
+    {
+      "gap_yd": 7,
+      "gap_m": 6.4,
+      "line_break_rate": 24.42,
+      "val_auc": 0.7501
+    },
+    {
+      "gap_yd": 8,
+      "gap_m": 7.32,
+      "line_break_rate": 22.19,
+      "val_auc": 0.7409
+    },
+    {
+      "gap_yd": 9,
+      "gap_m": 8.23,
+      "line_break_rate": 20.83,
+      "val_auc": 0.7376
+    },
+    {
+      "gap_yd": 10,
+      "gap_m": 9.14,
+      "line_break_rate": 19.58,
+      "val_auc": 0.7323
+    }
+  ],
+  "chosen_gap_yd": 4,
+  "chosen_gap_m": 3.66,
+  "test_auc": 0.7517
+}

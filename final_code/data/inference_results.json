@@ -1,0 +1,620 @@
+{
+  "ols_pitch_control_LaLiga_2020_21": {
+    "r_squared": 0.164,
+    "n": 8810,
+    "table": [
+      {
+        "term": "const",
+        "coef": -0.0304,
+        "se": 0.0056,
+        "z_or_t": -5.419,
+        "p_value": 0.0,
+        "ci_low": -0.0415,
+        "ci_high": -0.0194,
+        "significant_95": true
+      },
+      {
+        "term": "carry_distance_m",
+        "coef": -0.0023,
+        "se": 0.0004,
+        "z_or_t": -6.485,
+        "p_value": 0.0,
+        "ci_low": -0.003,
+        "ci_high": -0.0016,
+        "significant_95": true
+      },
+      {
+        "term": "carry_duration_s",
+        "coef": 0.0028,
+        "se": 0.0015,
+        "z_or_t": 1.914,
+        "p_value": 0.0556,
+        "ci_low": -0.0001,
+        "ci_high": 0.0057,
+        "significant_95": false
+      },
+      {
+        "term": "carry_speed_ms",
+        "coef": -0.0016,
+        "se": 0.0008,
+        "z_or_t": -1.94,
+        "p_value": 0.0524,
+        "ci_low": -0.0032,
+        "ci_high": 0.0,
+        "significant_95": false
+      },
+      {
+        "term": "defender_proximity_m",
+        "coef": 0.007,
+        "se": 0.0006,
+        "z_or_t": 12.253,
+        "p_value": 0.0,
+        "ci_low": 0.0059,
+        "ci_high": 0.0082,
+        "significant_95": true
+      },
+      {
+        "term": "under_pressure",
+        "coef": -0.0125,
+        "se": 0.0027,
+        "z_or_t": -4.69,
+        "p_value": 0.0,
+        "ci_low": -0.0177,
+        "ci_high": -0.0073,
+        "significant_95": true
+      },
+      {
+        "term": "progressive_carry",
+        "coef": 0.0613,
+        "se": 0.003,
+        "z_or_t": 20.522,
+        "p_value": 0.0,
+        "ci_low": 0.0555,
+        "ci_high": 0.0672,
+        "significant_95": true
+      }
+    ]
+  },
+  "ols_pitch_control_Ligue1_2021_22": {
+    "r_squared": 0.1893,
+    "n": 6474,
+    "table": [
+      {
+        "term": "const",
+        "coef": -0.0335,
+        "se": 0.0078,
+        "z_or_t": -4.28,
+        "p_value": 0.0,
+        "ci_low": -0.0488,
+        "ci_high": -0.0182,
+        "significant_95": true
+      },
+      {
+        "term": "carry_distance_m",
+        "coef": -0.0021,
+        "se": 0.0004,
+        "z_or_t": -5.196,
+        "p_value": 0.0,
+        "ci_low": -0.0029,
+        "ci_high": -0.0013,
+        "significant_95": true
+      },
+      {
+        "term": "carry_duration_s",
+        "coef": 0.0022,
+        "se": 0.0017,
+        "z_or_t": 1.24,
+        "p_value": 0.2149,
+        "ci_low": -0.0013,
+        "ci_high": 0.0056,
+        "significant_95": false
+      },
+      {
+        "term": "carry_speed_ms",
+        "coef": -0.002,
+        "se": 0.001,
+        "z_or_t": -2.026,
+        "p_value": 0.0428,
+        "ci_low": -0.004,
+        "ci_high": -0.0001,
+        "significant_95": true
+      },
+      {
+        "term": "defender_proximity_m",
+        "coef": 0.0078,
+        "se": 0.0009,
+        "z_or_t": 8.262,
+        "p_value": 0.0,
+        "ci_low": 0.0059,
+        "ci_high": 0.0096,
+        "significant_95": true
+      },
+      {
+        "term": "under_pressure",
+        "coef": -0.0107,
+        "se": 0.0039,
+        "z_or_t": -2.764,
+        "p_value": 0.0057,
+        "ci_low": -0.0183,
+        "ci_high": -0.0031,
+        "significant_95": true
+      },
+      {
+        "term": "progressive_carry",
+        "coef": 0.0636,
+        "se": 0.0034,
+        "z_or_t": 18.561,
+        "p_value": 0.0,
+        "ci_low": 0.0569,
+        "ci_high": 0.0704,
+        "significant_95": true
+      }
+    ]
+  },
+  "logit_baseline_LaLiga_2020_21": {
+    "pseudo_r2": 0.1552,
+    "n": 8810,
+    "table": [
+      {
+        "term": "const",
+        "coef": -1.4667,
+        "se": 0.1547,
+        "z_or_t": -9.48,
+        "p_value": 0.0,
+        "ci_low": -1.7699,
+        "ci_high": -1.1635,
+        "significant_95": true
+      },
+      {
+        "term": "carry_distance_m",
+        "coef": -0.026,
+        "se": 0.0096,
+        "z_or_t": -2.702,
+        "p_value": 0.0069,
+        "ci_low": -0.0448,
+        "ci_high": -0.0071,
+        "significant_95": true
+      },
+      {
+        "term": "carry_duration_s",
+        "coef": 0.1826,
+        "se": 0.0435,
+        "z_or_t": 4.202,
+        "p_value": 0.0,
+        "ci_low": 0.0974,
+        "ci_high": 0.2678,
+        "significant_95": true
+      },
+      {
+        "term": "carry_speed_ms",
+        "coef": 0.0932,
+        "se": 0.026,
+        "z_or_t": 3.585,
+        "p_value": 0.0003,
+        "ci_low": 0.0422,
+        "ci_high": 0.1442,
+        "significant_95": true
+      },
+      {
+        "term": "defender_proximity_m",
+        "coef": -0.2606,
+        "se": 0.0125,
+        "z_or_t": -20.853,
+        "p_value": 0.0,
+        "ci_low": -0.2851,
+        "ci_high": -0.2361,
+        "significant_95": true
+      },
+      {
+        "term": "under_pressure",
+        "coef": 0.2339,
+        "se": 0.0662,
+        "z_or_t": 3.532,
+        "p_value": 0.0004,
+        "ci_low": 0.1041,
+        "ci_high": 0.3636,
+        "significant_95": true
+      },
+      {
+        "term": "progressive_carry",
+        "coef": 1.5862,
+        "se": 0.0802,
+        "z_or_t": 19.785,
+        "p_value": 0.0,
+        "ci_low": 1.429,
+        "ci_high": 1.7433,
+        "significant_95": true
+      }
+    ]
+  },
+  "logit_baseline_Ligue1_2021_22": {
+    "pseudo_r2": 0.1436,
+    "n": 6474,
+    "table": [
+      {
+        "term": "const",
+        "coef": -1.1745,
+        "se": 0.1861,
+        "z_or_t": -6.311,
+        "p_value": 0.0,
+        "ci_low": -1.5393,
+        "ci_high": -0.8098,
+        "significant_95": true
+      },
+      {
+        "term": "carry_distance_m",
+        "coef": 0.0081,
+        "se": 0.0113,
+        "z_or_t": 0.718,
+        "p_value": 0.4725,
+        "ci_low": -0.014,
+        "ci_high": 0.0302,
+        "significant_95": false
+      },
+      {
+        "term": "carry_duration_s",
+        "coef": 0.0829,
+        "se": 0.0516,
+        "z_or_t": 1.608,
+        "p_value": 0.1079,
+        "ci_low": -0.0182,
+        "ci_high": 0.184,
+        "significant_95": false
+      },
+      {
+        "term": "carry_speed_ms",
+        "coef": 0.0439,
+        "se": 0.0321,
+        "z_or_t": 1.369,
+        "p_value": 0.1711,
+        "ci_low": -0.019,
+        "ci_high": 0.1069,
+        "significant_95": false
+      },
+      {
+        "term": "defender_proximity_m",
+        "coef": -0.2698,
+        "se": 0.015,
+        "z_or_t": -18.003,
+        "p_value": 0.0,
+        "ci_low": -0.2992,
+        "ci_high": -0.2404,
+        "significant_95": true
+      },
+      {
+        "term": "under_pressure",
+        "coef": 0.0434,
+        "se": 0.0794,
+        "z_or_t": 0.546,
+        "p_value": 0.5848,
+        "ci_low": -0.1123,
+        "ci_high": 0.1991,
+        "significant_95": false
+      },
+      {
+        "term": "progressive_carry",
+        "coef": 1.258,
+        "se": 0.0928,
+        "z_or_t": 13.55,
+        "p_value": 0.0,
+        "ci_low": 1.0761,
+        "ci_high": 1.44,
+        "significant_95": true
+      }
+    ]
+  },
+  "fe_season1": {
+    "baseline_player": "Aspas",
+    "pseudo_r2": 0.193,
+    "n": 5248,
+    "table": [
+      {
+        "term": "player_Benzema",
+        "coef": 0.3368,
+        "se": 0.6975,
+        "z_or_t": 0.483,
+        "p_value": 0.6292,
+        "ci_low": -1.0303,
+        "ci_high": 1.7039,
+        "significant_95": false,
+        "player": "Benzema",
+        "n": 22
+      },
+      {
+        "term": "player_Busquets",
+        "coef": -0.3981,
+        "se": 0.5179,
+        "z_or_t": -0.769,
+        "p_value": 0.4421,
+        "ci_low": -1.4132,
+        "ci_high": 0.6169,
+        "significant_95": false,
+        "player": "Busquets",
+        "n": 673
+      },
+      {
+        "term": "player_Coutinho",
+        "coef": 0.0735,
+        "se": 0.523,
+        "z_or_t": 0.14,
+        "p_value": 0.8883,
+        "ci_low": -0.9517,
+        "ci_high": 1.0986,
+        "significant_95": false,
+        "player": "Coutinho",
+        "n": 243
+      },
+      {
+        "term": "player_Demb\u00e9l\u00e9",
+        "coef": -0.6925,
+        "se": 0.5127,
+        "z_or_t": -1.351,
+        "p_value": 0.1768,
+        "ci_low": -1.6974,
+        "ci_high": 0.3125,
+        "significant_95": false,
+        "player": "Demb\u00e9l\u00e9",
+        "n": 468
+      },
+      {
+        "term": "player_Griezmann",
+        "coef": -0.423,
+        "se": 0.5154,
+        "z_or_t": -0.821,
+        "p_value": 0.4118,
+        "ci_low": -1.4333,
+        "ci_high": 0.5873,
+        "significant_95": false,
+        "player": "Griezmann",
+        "n": 432
+      },
+      {
+        "term": "player_Jo\u00e3o F\u00e9lix",
+        "coef": -0.543,
+        "se": 0.7142,
+        "z_or_t": -0.76,
+        "p_value": 0.4471,
+        "ci_low": -1.9427,
+        "ci_high": 0.8568,
+        "significant_95": false,
+        "player": "Jo\u00e3o F\u00e9lix",
+        "n": 33
+      },
+      {
+        "term": "player_Kroos",
+        "coef": 0.1409,
+        "se": 0.7058,
+        "z_or_t": 0.2,
+        "p_value": 0.8418,
+        "ci_low": -1.2426,
+        "ci_high": 1.5243,
+        "significant_95": false,
+        "player": "Kroos",
+        "n": 37
+      },
+      {
+        "term": "player_Llorente",
+        "coef": -0.2003,
+        "se": 0.6873,
+        "z_or_t": -0.291,
+        "p_value": 0.7707,
+        "ci_low": -1.5475,
+        "ci_high": 1.1468,
+        "significant_95": false,
+        "player": "Llorente",
+        "n": 35
+      },
+      {
+        "term": "player_Messi",
+        "coef": 0.3079,
+        "se": 0.4981,
+        "z_or_t": 0.618,
+        "p_value": 0.5366,
+        "ci_low": -0.6685,
+        "ci_high": 1.2842,
+        "significant_95": false,
+        "player": "Messi",
+        "n": 1384
+      },
+      {
+        "term": "player_Modri\u0107",
+        "coef": -0.2618,
+        "se": 0.744,
+        "z_or_t": -0.352,
+        "p_value": 0.7249,
+        "ci_low": -1.7201,
+        "ci_high": 1.1964,
+        "significant_95": false,
+        "player": "Modri\u0107",
+        "n": 25
+      },
+      {
+        "term": "player_Pedri",
+        "coef": -0.2901,
+        "se": 0.5067,
+        "z_or_t": -0.573,
+        "p_value": 0.567,
+        "ci_low": -1.2833,
+        "ci_high": 0.703,
+        "significant_95": false,
+        "player": "Pedri",
+        "n": 699
+      },
+      {
+        "term": "player_Pjani\u0107",
+        "coef": -0.0855,
+        "se": 0.5391,
+        "z_or_t": -0.159,
+        "p_value": 0.8739,
+        "ci_low": -1.1421,
+        "ci_high": 0.971,
+        "significant_95": false,
+        "player": "Pjani\u0107",
+        "n": 232
+      },
+      {
+        "term": "player_Vin\u00edcius Jr",
+        "coef": -0.924,
+        "se": 0.6851,
+        "z_or_t": -1.349,
+        "p_value": 0.1774,
+        "ci_low": -2.2669,
+        "ci_high": 0.4188,
+        "significant_95": false,
+        "player": "Vin\u00edcius Jr",
+        "n": 39
+      },
+      {
+        "term": "player_de Jong",
+        "coef": -0.1283,
+        "se": 0.5044,
+        "z_or_t": -0.254,
+        "p_value": 0.7993,
+        "ci_low": -1.1169,
+        "ci_high": 0.8603,
+        "significant_95": false,
+        "player": "de Jong",
+        "n": 901
+      }
+    ]
+  },
+  "fe_season2": {
+    "baseline_player": "Danilo Pereira",
+    "pseudo_r2": 0.1422,
+    "n": 3764,
+    "table": [
+      {
+        "term": "player_Di Mar\u00eda",
+        "coef": -0.1916,
+        "se": 0.2587,
+        "z_or_t": -0.741,
+        "p_value": 0.4589,
+        "ci_low": -0.6987,
+        "ci_high": 0.3155,
+        "significant_95": false,
+        "player": "Di Mar\u00eda",
+        "n": 446
+      },
+      {
+        "term": "player_Fofana",
+        "coef": 0.5438,
+        "se": 0.4003,
+        "z_or_t": 1.358,
+        "p_value": 0.1743,
+        "ci_low": -0.2408,
+        "ci_high": 1.3285,
+        "significant_95": false,
+        "player": "Fofana",
+        "n": 57
+      },
+      {
+        "term": "player_Gueye",
+        "coef": 0.1905,
+        "se": 0.2664,
+        "z_or_t": 0.715,
+        "p_value": 0.4744,
+        "ci_low": -0.3315,
+        "ci_high": 0.7126,
+        "significant_95": false,
+        "player": "Gueye",
+        "n": 374
+      },
+      {
+        "term": "player_Mbapp\u00e9",
+        "coef": 0.0471,
+        "se": 0.2458,
+        "z_or_t": 0.191,
+        "p_value": 0.8482,
+        "ci_low": -0.4348,
+        "ci_high": 0.5289,
+        "significant_95": false,
+        "player": "Mbapp\u00e9",
+        "n": 469
+      },
+      {
+        "term": "player_Messi (PSG)",
+        "coef": 0.6369,
+        "se": 0.2278,
+        "z_or_t": 2.796,
+        "p_value": 0.0052,
+        "ci_low": 0.1904,
+        "ci_high": 1.0835,
+        "significant_95": true,
+        "player": "Messi (PSG)",
+        "n": 773
+      },
+      {
+        "term": "player_Neymar",
+        "coef": 0.1459,
+        "se": 0.2421,
+        "z_or_t": 0.603,
+        "p_value": 0.5467,
+        "ci_low": -0.3286,
+        "ci_high": 0.6205,
+        "significant_95": false,
+        "player": "Neymar",
+        "n": 512
+      },
+      {
+        "term": "player_Payet",
+        "coef": -0.4511,
+        "se": 0.526,
+        "z_or_t": -0.858,
+        "p_value": 0.3912,
+        "ci_low": -1.4821,
+        "ci_high": 0.5799,
+        "significant_95": false,
+        "player": "Payet",
+        "n": 76
+      },
+      {
+        "term": "player_Verratti",
+        "coef": 0.4245,
+        "se": 0.2399,
+        "z_or_t": 1.77,
+        "p_value": 0.0768,
+        "ci_low": -0.0457,
+        "ci_high": 0.8946,
+        "significant_95": false,
+        "player": "Verratti",
+        "n": 599
+      },
+      {
+        "term": "player_Wijnaldum",
+        "coef": -0.5218,
+        "se": 0.376,
+        "z_or_t": -1.388,
+        "p_value": 0.1653,
+        "ci_low": -1.2588,
+        "ci_high": 0.2153,
+        "significant_95": false,
+        "player": "Wijnaldum",
+        "n": 145
+      }
+    ]
+  },
+  "gbm_boot_5feat_LaLiga_2020_21": {
+    "point_auc": 0.7382,
+    "boot_mean": 0.7383,
+    "ci_low": 0.7165,
+    "ci_high": 0.7635
+  },
+  "gbm_boot_6feat_LaLiga_2020_21": {
+    "point_auc": 0.7776,
+    "boot_mean": 0.778,
+    "ci_low": 0.7543,
+    "ci_high": 0.8014
+  },
+  "gbm_boot_5feat_Ligue1_2021_22": {
+    "point_auc": 0.7494,
+    "boot_mean": 0.7486,
+    "ci_low": 0.7195,
+    "ci_high": 0.777
+  },
+  "gbm_boot_6feat_Ligue1_2021_22": {
+    "point_auc": 0.766,
+    "boot_mean": 0.7655,
+    "ci_low": 0.7364,
+    "ci_high": 0.7918
+  }
+}
